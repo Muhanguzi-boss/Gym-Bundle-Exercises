@@ -111,3 +111,38 @@ Imbaragas-iMac:thegym-exercises gymimbaraga$ git reset --hard HEAD
 HEAD is now at 893d646 Restore about the About.html and Home.html
 Imbaragas-iMac:thegym-exercises gymimbaraga$ git
 ``` 
+
+
+# Bundle 2
+
+## Exercise 1
+
+```bash
+gymimbaraga@Imbaragas-iMac thegym-exercises % git branch ft/bundle-2 
+gymimbaraga@Imbaragas-iMac thegym-exercises % git checkout ft/bundle-2 
+Switched to branch 'ft/bundle-2'
+gymimbaraga@Imbaragas-iMac thegym-exercises % git status
+On branch ft/bundle-2
+nothing to commit, working tree clean
+gymimbaraga@Imbaragas-iMac thegym-exercises % touch service.html
+gymimbaraga@Imbaragas-iMac thegym-exercises % git add service.html
+gymimbaraga@Imbaragas-iMac thegym-exercises % git commit -m "Add service.html page"
+[ft/bundle-2 d56aa9b] Add service.html page
+ 1 file changed, 12 insertions(+)
+ create mode 100644 service.html
+gymimbaraga@Imbaragas-iMac thegym-exercises % git push origin ft/bundle-2 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 478 bytes | 478.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'ft/bundle-2' on GitHub by visiting:
+remote:      https://github.com/Muhanguzi-boss/Gym-Bundle-Exercises/pull/new/ft/bundle-2
+remote: 
+To https://github.com/Muhanguzi-boss/Gym-Bundle-Exercises.git
+ * [new branch]      ft/bundle-2 -> ft/bundle-2
+gymimbaraga@Imbaragas-iMac thegym-exercises % 
+```
